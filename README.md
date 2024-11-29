@@ -1,4 +1,4 @@
-# @collabo-community/building-blocks
+# @collabo-community/blocks-doc
 
 V1.0.0 development in progress. Contributions welcome. Learn how you can contribute to the project: [resources.collabo.community](https://resources.collabo.community)
 
