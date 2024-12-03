@@ -19,11 +19,11 @@ export const getAppController =  async (req: Request, res: Response) => {
     description: 'API for the Documentation app instances (for users) of the libraries within Building blocks framework',
     built_at: 'Collabo Community [Code Collabo]',
     github: {
-      repository: 'https://github.com/collabo-community/building-blocks',
+      repository: 'https://github.com/collabo-community/blocks-doc',
     },
     contributors: {
       count: 1, // TODO: Dynamically get the list of contributors from GitHub
-      list: ['Find list of contributors in project README: https://github.com/collabo-community/building-blocks?tab=readme-ov-file#contributors'],
+      list: ['Find list of contributors in project README: https://github.com/collabo-community/blocks-doc?tab=readme-ov-file#contributors'],
     },
   };
   res.status(200).json(apiInfo);

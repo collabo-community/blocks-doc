@@ -9,7 +9,7 @@ export class ApiRequestService {
   private readonly backendURL;
 
   constructor(private httpClient: HttpClient) {
-    this.backendURL = 'http://localhost:3000';
+    this.backendURL = 'http://localhost:5300';
   }
 
   //-------------------
